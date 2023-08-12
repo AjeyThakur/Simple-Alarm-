@@ -31,7 +31,7 @@ function displayTime() {
         }
 
     });
-}
+};
 
 const inputCheck = (inputValue) => {
     inputValue = parseInt(inputValue);
@@ -108,7 +108,7 @@ const searchObject = (parameter, value) => {
     return [exist, alarmObject, objIndex];
 
 
-}
+};
 
 const startAlarm = (e) => {
     let searchId = e.target.parentElement.getAttribute("data-id");
@@ -127,7 +127,7 @@ const stopAlarm = (e) => {
         alarmsound.pause();
 
     }
-}
+};
 
 const deleteAlarm = (e) => {
     let searchId = e.target.parentElement.parentElement.getAttribute("data-id");
